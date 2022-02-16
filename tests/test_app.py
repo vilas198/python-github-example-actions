@@ -1,8 +1,8 @@
 """testing for unitesting"""
-from app import index
+from app1 import index1
 
 
 def test_index1():
     """testing app index """
-    assert index() == "Hello World"
+    assert index1() == "Hello World"
 

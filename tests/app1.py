@@ -5,7 +5,7 @@ APP = Flask(__name__)
 
 
 @APP.route("/")
-def index():
+def index1():
     """Flask function for cicd testing"""
     return "Hello World"
 
