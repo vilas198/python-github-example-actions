@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     """Flask function for cicd testing"""
-    return "Hello World"
+    return "Hello World fire"
 
 
 if __name__ == "__main__":
